@@ -4,9 +4,7 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'mern\backend\Dockerfile'
-      - 'mern\frontend\Dockerfile'
+    
 
 jobs:
   build:
